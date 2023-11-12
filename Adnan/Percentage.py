@@ -1,6 +1,10 @@
 a=eval(input("Enter the Percentage"))
 if(a>=80 and a<=100):
     print("A+")
+    if (a>=95):
+        print("Distinction")
+    else:
+        print("")
 elif(a<=70 and a>=70):
     print("A")
 elif(a<=69 and a>=60):
