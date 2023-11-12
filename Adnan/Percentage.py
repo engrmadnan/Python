@@ -8,11 +8,11 @@ if(a>=80 and a<=100):
 elif(a<=70 and a>=70):
     print("A")
 elif(a<=69 and a>=60):
-    print("C")
+    print("B")
 elif(a<=59 and a>=50):
-    print("D")
+    print("C")
 elif(a<=49 and a>=40):
-    print("E")
+    print("D")
 elif(a>100 or a<0):
     print("Enter Correct Value")
 else:
